@@ -4,44 +4,56 @@ from torpy.http.requests import TorRequests
 
 
 def scraper():
-    grab = None
     lista = ""
-    print('scraper : INFO : stay in tune...', flush=True)
-    with open('site.txt', 'r') as f:
+    print('scraper : INFO : requesting elcano...', flush=True)
+
+    with open('caches/site.txt', 'r') as f:
         line = f.read()
         link = line.strip()
+        f.close()
 
-    while grab is None:
-        try:
-            with TorRequests() as tor_requests:
-                with tor_requests.get_session() as sess:
-                    grab = sess.get(link)
-                    print(grab)
-        except:
-            # El error de la librería torpy no tiene importancia y no afecta a futuros runs
-            print("scraper : ERROR : line 20 torpy error")
-            #sys.exit(1) envía correo de aviso
-            #sys.exit(0) NO envía correo
-            sys.exit(0)
+    try:
+        with TorRequests() as tor_requests:
+            with tor_requests.get_session() as sess:
+                grab = sess.get(link)
+                print(grab)
+    except:
+        # El error de la librería torpy no tiene importancia y no afecta a futuros runs
+        print("scraper : ERROR : torpy linea 22")
+        #sys.exit(1)
 
     soup = BeautifulSoup(grab.text, 'html.parser')
     for enlace in soup.find_all('a'):
         acelink = enlace.get('href')
         canal = enlace.text
+
         if not str(acelink).startswith("acestream://") or canal == "aquÃ­":
             pass
         else:
             link = str(acelink).replace("acestream://", "")
             lista += str((canal + "\n" + link + "\n"))
-
             contenido = ((lista.replace(u'\xa0', u' ')).strip())
 
     if contenido != "":
         print("scraper : OK : channels retrieved")
+        write_cache(contenido)
     else:
-        print("scraper : ERROR : channels could not be retrieved")
-        sys.exit(0)
+        print("scraper : INFO : could not access elcano")
+    
 
-    return contenido
+def write_cache(contenido):
+    with open("caches/cachedList.txt", "w") as cachedlist:
+        cachedlist.write(contenido)
+        cachedlist.close()
+        print("scraper : INFO : elcano cached")
 
-#scraper()
+"""
+def read_cache():
+    with open('caches/cachedList.txt', 'r') as cachedlist:
+        contenido = cachedlist.read()
+        cachedlist.close()
+        print("scrap: INFO: returning elcano cached List")
+        #return (contenido)
+"""
+
+scraper()
