@@ -1,26 +1,21 @@
 import sys
 from bs4 import BeautifulSoup
 from torpy.http.requests import TorRequests
+import requests
 
 
 def scraper():
     lista = ""
     print('scraper : INFO : requesting elcano...', flush=True)
 
-    with open('caches/site.txt', 'r') as f:
-        line = f.read()
-        link = line.strip()
-        f.close()
-
     try:
         with TorRequests() as tor_requests:
             with tor_requests.get_session() as sess:
-                grab = sess.get(link)
+                grab = sess.get('https://elcano.top')
                 print(grab)
     except:
-        # El error de la librería torpy no tiene importancia y no afecta a futuros runs
-        print("scraper : ERROR : torpy linea 22")
-        #sys.exit(1)
+        print("scraper : INFO : torpy linea 22 could not access elcano")
+        sys.exit(0)
 
     soup = BeautifulSoup(grab.text, 'html.parser')
     for enlace in soup.find_all('a'):
@@ -42,18 +37,14 @@ def scraper():
     
 
 def write_cache(contenido):
-    with open("caches/cachedList.txt", "w") as cachedlist:
-        cachedlist.write(contenido)
+
+    with open("toys/cachedList.txt", "wb") as cachedlist:
+        cachedlist.write(contenido.encode('latin1'))
         cachedlist.close()
         print("scraper : INFO : elcano cached")
 
-"""
-def read_cache():
-    with open('caches/cachedList.txt', 'r') as cachedlist:
-        contenido = cachedlist.read()
-        cachedlist.close()
-        print("scrap: INFO: returning elcano cached List")
-        #return (contenido)
-"""
+
+
 
 scraper()
+
