@@ -66,12 +66,12 @@ canales:
   canal1:
     channel_name: La1
     group_title: Otros
-    logo: https://img.sport-tv-guide.live/images/tv-station-la-1-838.png
+    logo: https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/TVE
     tvg_id: La 1 HD
   canal2:
     channel_name: La1 UHD
     group_title: Otros
-    logo: https://img.sport-tv-guide.live/images/tv-station-la-1-838.png
+    logo: https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/TVE
     tvg_id: La 1 HD
   canal3:
     channel_name: LaLiga TV Bar 1080
@@ -262,22 +262,22 @@ canales:
   canal43:
     channel_name: ML Campeones 1080 MultiAudio
     group_title: M+ Champions
-    logo: https://img.sport-tv-guide.live/images/tv-station-moviestar-liga-de-campeones-1459.png
+    logo: https://telegra.ph/file/b5075b2db3e21d0f5cb92.jpg
     tvg_id: M+ Liga de Campeones HD
   canal44:
     channel_name: ML Campeones 720
     group_title: M+ Champions
-    logo: https://img.sport-tv-guide.live/images/tv-station-moviestar-liga-de-campeones-1459.png
+    logo: https://telegra.ph/file/b5075b2db3e21d0f5cb92.jpg
     tvg_id: M+ Liga de Campeones HD
   canal44a:
     channel_name: ML Campeones 2 1080
     group_title: M+ Champions
-    logo: https://img.sport-tv-guide.live/images/tv-station-moviestar-liga-de-campeones-2-1460.png
+    logo: https://telegra.ph/file/388cb7e9c2c35b3e2b2a3.jpg
     tvg_id: M+ Liga de Campeones 2 HD
   canal44b:
     channel_name: ML Campeones 2 720
     group_title: M+ Champions
-    logo: https://img.sport-tv-guide.live/images/tv-station-moviestar-liga-de-campeones-2-1460.png
+    logo: https://telegra.ph/file/388cb7e9c2c35b3e2b2a3.jpg
     tvg_id: M+ Liga de Campeones 2 HD
   canal45:
     channel_name: M+ Champions Tour 1080
@@ -292,68 +292,68 @@ canales:
   canal47:
     channel_name: ML Campeones 3 1080
     group_title: M+ Champions
-    logo: https://img.sport-tv-guide.live/images/tv-station-movistar-liga-de-campeones-3-1548.png
+    logo: https://telegra.ph/file/e4c5995e20c06f7fd036f.jpg
     tvg_id: M+ Liga de Campeones 3 HD
   canal48:
     channel_name: ML Campeones 3 720
     group_title: M+ Champions
-    logo: https://img.sport-tv-guide.live/images/tv-station-movistar-liga-de-campeones-3-1548.png
+    logo: https://telegra.ph/file/e4c5995e20c06f7fd036f.jpg
     tvg_id: M+ Liga de Campeones 3 HD
   canal49:
     channel_name: ML Campeones 4 SD
     group_title: M+ Champions
-    logo: https://img.sport-tv-guide.live/images/tv-station-movistar-liga-de-campeones-4-1549.png
+    logo: https://telegra.ph/file/ed5ff4d4af1b41089bf63.jpg
     tvg_id: M+ Liga de Campeones 4 HD
   canal50:
     channel_name: ML Campeones 5 SD
     group_title: M+ Champions
-    logo: https://img.sport-tv-guide.live/images/tv-station-movistar-liga-de-campeones-5-1550.png
+    logo: https://telegra.ph/file/f70ec8ceea100f7cc16d3.jpg
     tvg_id: M+ Liga de Campeones 5 HD
   canal51:
     channel_name: ML Campeones 6 SD
     group_title: M+ Champions
-    logo: https://img.sport-tv-guide.live/images/tv-station-movistar-liga-de-campeones-6-1551.png
+    logo: https://telegra.ph/file/973fa621597f93bf3ada4.jpg
     tvg_id: M+ Liga de Campeones 6 HD
   canal52:
     channel_name: ML Campeones 7 SD
     group_title: M+ Champions
-    logo: https://img.sport-tv-guide.live/images/tv-station-movistar-liga-de-campeones-7-1552.png
+    logo: https://telegra.ph/file/0059fad5e9fb7248810ca.jpg
     tvg_id: M+ Liga de Campeones 7 HD
   canal53:
     channel_name: ML Campeones 8 SD
     group_title: M+ Champions
-    logo: https://img.sport-tv-guide.live/images/tv-station-movistar-liga-de-campeones-8-1602.png
+    logo: https://telegra.ph/file/e42c3be17719dec0dca80.jpg
     tvg_id: M+ Liga de Campeones 8 HD
   canal54:
     channel_name: ML Campeones 9 SD
     group_title: M+ Champions
-    logo: https://img.sport-tv-guide.live/images/tv-station-moviestar-liga-de-campeones-1459.png
+    logo: https://telegra.ph/file/cc889bcf3a3eabd469beb.jpg
     tvg_id: M+ Liga de Campeones 9 HD
   canal55:
     channel_name: ML Campeones 10 SD
     group_title: M+ Champions
-    logo: https://img.sport-tv-guide.live/images/tv-station-moviestar-liga-de-campeones-1459.png
+    logo: https://telegra.ph/file/87e8ff06e728bac9eabb8.jpg
     tvg_id: M+ Liga de Campeones 10 HD
   canal56:
     channel_name: ML Campeones 11 SD
     group_title: M+ Champions
-    logo: https://img.sport-tv-guide.live/images/tv-station-moviestar-liga-de-campeones-1459.png
+    logo: https://telegra.ph/file/26538ea7e7858cf653f05.jpg
     tvg_id: M+ Liga de Campeones 11 HD
   canal57:
     channel_name: ML Campeones 12 SD
     group_title: M+ Champions
-    logo: https://img.sport-tv-guide.live/images/tv-station-moviestar-liga-de-campeones-2-1460.png
+    logo: https://telegra.ph/file/e070f448f095ac6d66379.jpg
     tvg_id: M+ Liga de Campeones 12 HD
   canal58:
     channel_name: M+ Golf 1080
     group_title: M+ Deportes
-    logo: https://telegra.ph/file/03d37cabc50275f05a1ee.png
+    logo: https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/GOLF+
     #logo: https://img.sport-tv-guide.live/images/tv-station-movistar-golf-368.png
     tvg_id: M+ Golf HD
   canal59:
     channel_name: M+ Golf 2 1080
     group_title: M+ Deportes
-    logo: https://telegra.ph/file/adac3b77c6ba7a16fcc95.png
+    logo: https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/GOLF2
     tvg_id: M+ Golf 2 HD
     
   #canal59b:
@@ -420,7 +420,7 @@ canales:
   canal72:
     channel_name: tdp 1080
     group_title: Otros deportes
-    logo: https://i.ibb.co/thh1tKH/TDP.jpg
+    logo: https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/TDEP
     tvg_id: Teledeporte
   canal73:
     channel_name: Tennis Channel
@@ -430,17 +430,17 @@ canales:
   canal74:
     channel_name: CUATRO 1080
     group_title: Otros
-    logo: https://img.sport-tv-guide.live/images/tv-station-cuatro-619.png
+    logo: https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/C4
     tvg_id: Cuatro HD
   canal75:
     channel_name: BeMad 1080
     group_title: Otros
-    logo: https://img.sport-tv-guide.live/images/tv-station-be-mad-621.png
+    logo: https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/BEMAD
     tvg_id: Be Mad
   canal76:
     channel_name: Telecinco 1080
     group_title: Otros
-    logo: https://img.sport-tv-guide.live/images/stations/a907.png
+    logo: https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/T5
     tvg_id: Telecinco HD
   canal77:
     channel_name: Sport TV 1 1080
@@ -491,7 +491,7 @@ canales:
   canal86:
     channel_name: '#0 M+ HD 1080'
     group_title: Otros
-    logo: https://img.sport-tv-guide.live/images/stations/a371.png
+    logo: https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/MV3
     tvg_id: 'M+ #0 HD'
   canal87:
     channel_name: SETANTA SPORTS 1080
@@ -503,17 +503,17 @@ canales:
   canal88:
     channel_name: Historia
     group_title: electroperra
-    logo: https://www.movistarplus.es/recorte/m-NEO/canal/HIST.png
+    logo: https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/HIST
     tvg_id: HISTORIA
   canal89:
     channel_name: Nat Geo Wild
     group_title: electroperra
-    logo: https://www.movistarplus.es/recorte/m-NEO/canal/NATGW.png
+    logo: https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/NATGW
     tvg_id: NAT GEO WILD HD
   canal90:
     channel_name: National Geographic
     group_title: electroperra
-    logo: https://www.movistarplus.es/recorte/m-NEO/canal/NATGEO.png
+    logo: https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/NATGEO
     tvg_id: NAT GEO HD
   canal91:
     channel_name: Sky Sports Main Event UK
@@ -548,6 +548,11 @@ canales:
     group_title: Otros deportes
     logo: https://telegra.ph/file/d4d9a410917c5c13f9c5a.png
     tvg_id: TNTSport4.uk
+  canal104:
+    channel_name: Sky Sports Premier League UK
+    group_title: Otros deportes
+    logo: https://telegra.ph/file/d4d9a410917c5c13f9c5a.png
+    tvg_id: SkySportsPremierLeague.uk
   canal97:
     channel_name: Sky Sports Arena UK
     group_title: Otros deportes
@@ -591,11 +596,7 @@ canales:
     group_title: Otros deportes
     logo: https://telegra.ph/file/d4d9a410917c5c13f9c5a.png
     tvg_id: ZiggoSportRacing.nl
-  canal104:
-    channel_name: Sky Sports Premier League UK
-    group_title: Otros deportes
-    logo: https://telegra.ph/file/d4d9a410917c5c13f9c5a.png
-    tvg_id: I402.1890.tvguide.co.uk
+  
   canal105:
     channel_name: M Plus+ 1080
     group_title: M+ Deportes
@@ -604,7 +605,7 @@ canales:
   canal106:
     channel_name: La2
     group_title: Otros
-    logo: https://telegra.ph/file/b2b00bd7ca033d6e69d6e.jpg
+    logo: https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/LA2
     tvg_id: La 2
   canal107:
     channel_name: Discovery
@@ -645,23 +646,23 @@ canales:
   canal114:
     channel_name: Gol Mundial 1
     group_title: Gol Mundial
-    logo: https://telegra.ph/file/e0a91c5adcde0f3272943.jpg
-    tvg_id: nil
+    logo: https://i.ibb.co/XpC9S2F/gol1.png
+    tvg_id: Gol Mundial 1
   canal115:
     channel_name: Gol Mundial 2
     group_title: Gol Mundial
-    logo: https://telegra.ph/file/33058fa92054dce6e1e12.jpg
-    tvg_id: nil
+    logo: https://i.ibb.co/Ld4Cbtz/gol2.png
+    tvg_id: Gol Mundial 2
   canal116:
     channel_name: Gol Mundial 3
     group_title: Gol Mundial
-    logo: https://telegra.ph/file/a89a02e875bc727f425d7.jpg
-    tvg_id: nil
+    logo: https://i.ibb.co/WBYv3gm/gol3.png
+    tvg_id: Gol Mundial 3
   canal117:
     channel_name: Gol Mundial 4
     group_title: Gol Mundial
-    logo: https://telegra.ph/file/138cd46b2a835497b718a.jpg
-    tvg_id: nil
+    logo: https://i.ibb.co/Vt3rYrv/gol4.png
+    tvg_id: Gol Mundial 4
 
 
 
